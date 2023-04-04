@@ -51,6 +51,9 @@ public class App {
                 textoFigurinha = "Agradável...";
                 imagemClassificacao = new FileInputStream (new File("sobreposicao/Agradavel.jpg"));
             }
+
+            // Teste Branch
+            
             
 
 
