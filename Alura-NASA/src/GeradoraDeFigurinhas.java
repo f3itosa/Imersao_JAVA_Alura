@@ -33,8 +33,8 @@ public class GeradoraDeFigurinhas {
         graphics.setFont(fonte);
 
         // escrever uma frase na nova imagem
-        graphics.drawString("FILME MEGA TOPZERA", 100, novaAltura - 100);
-
+        //graphics.drawString("FILME MEGA TOPZERA", 100, novaAltura - 100);
+        graphics.drawString("TOP", 100, novaAltura - 100);
         // escrever a nova imagem em um arquivo
         //ImageIO.write(novaImagem, "jpg", new File("saida/" + nomeArquivo));
         ImageIO.write(novaImagem, "png", new File(nomeArquivo));

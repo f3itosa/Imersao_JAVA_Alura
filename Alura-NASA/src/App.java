@@ -8,9 +8,12 @@ public class App {
 
     public static void main(String[] args) throws Exception {
 
-    
+        // API Sping JAVA Json Aula 04 teste
+        //String urlLinguagens = "http://localhost:8080/linguagens";
+
+
         // chama URL API.java
-        API api = API.NASA;
+        API api = API.LINGUAGEM;
 
         String  url = api.getUrl();
         ExtratorDeConteudo extrator = api.getExtrator();
@@ -28,7 +31,7 @@ public class App {
 
         var geradora = new GeradoraDeFigurinhas();
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 2; i++) {
 
             Conteudo conteudo = conteudos.get(i);
 
